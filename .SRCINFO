@@ -1,0 +1,15 @@
+pkgbase = run-git
+	pkgdesc = A simpler shorter way to Compile AND Run a .cpp file
+	pkgver = r3.91db087
+	pkgrel = 1
+	url = https://github.com/adi-g15/run
+	arch = x86_64
+	license = Unlicense
+	makedepends = git
+	depends = gcc
+	provides = run
+	conflicts = run
+	source = git+https://github.com/adi-g15/run.git
+	md5sums = SKIP
+
+pkgname = run-git
